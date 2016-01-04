@@ -1,0 +1,61 @@
+/*
+colors:
+  blue #3498db
+  light #bdc3c7
+  dark #2c3e50
+  font: source sans pro
+*/
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+body {
+    border-top: 20px solid #bdc3c7;
+    border-right: 20px solid #bdc3c7;
+    border-bottom: 20px solid #bdc3c7;
+    border-left: 20px solid #bdc3c7;
+    margin: 40px 40px 40px 40px;
+    font-family: 'Source Sans Pro', sans-serif;;
+}
+
+j1 {
+  font-size: 90px;
+  letter-spacing: 12px;
+  color:#2c3e50;
+}
+
+j3 {
+  font-size: 20px;
+  letter-spacing: 4px;
+  color:#2c3e50;
+  color:white;
+}
+
+p {
+  font-size: 16px;
+  letter-spacing: 2px;
+  color:#2c3e50;
+  margin: 20px 2px 20px 2px
+}
+
+.icon-space {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+a.deco-none {
+  color:#2c3e50 !important;
+  text-decoration:none
+}
+
+.blue {
+  background-color: #3498db;
+  padding: 2px 100px 2px 20px;
+  margin-bottom: 20px;
+}
+
+.section-division {
+  padding-top: 60px;
+}
+
+.image-division {
+  padding-top: 40px;
+}
