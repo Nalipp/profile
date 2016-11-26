@@ -13,7 +13,6 @@ body {
 header {
   box-sizing: border-box;
   width: 460px;
-  height: 600px;
   padding: 20px;
 }
 
@@ -27,8 +26,20 @@ ul li {
   display: inline;
 }
 
+h1 {
+  color: #56B6C2;
+  padding: 20px 0 0 50px;
+}
+
 h4 {
   display: inline;
+}
+
+p {
+  color: #ABB2BF;
+  padding: 0 60px 20px 60px;
+  line-height: 28px;
+  font-size: 18px;
 }
 
 .border {
@@ -36,26 +47,19 @@ h4 {
   box-sizing: border-box;
 }
 
-.learning {
-  width: 660px;
-  position: relative;
-  bottom: 600px;
-  left: 460px;
-  padding: 20px;
-}
-
 .learn-box {
-  background: #D19966;
+  background: #E06C75;
   color: #282C34;
-  width: 520px;
+  width: 400px;
   padding: 60px 0 20px 20px;
+  margin: 20px auto;
 }
 
 .projects {
   width: 660px;
-  position: relative;
-  bottom: 600px;
-  left: 460px;
+  position: absolute;
+  bottom: 250px;
+  left: 500px;
   padding: 20px;
 }
 
@@ -65,7 +69,6 @@ h4 {
   margin: 15px;
   padding: 30px 0 10px 10px;
 }
-
 
 .project-box.box1 {
   background: #E06C75;
@@ -77,4 +80,8 @@ h4 {
 
 .project-box.box3 {
   background: #56B6C2;
+}
+
+.blue-text {
+  color: #56B6C2;
 }
