@@ -1,0 +1,49 @@
+body {
+  font-family: consolas, menlo, monospace;
+  background: #282C34;
+  color: #E06C75;
+  margin: 20px;
+}
+
+header {
+  width: 50%;
+}
+
+h1 {
+  font-size: 28px;
+  color: #ABB2BF;
+}
+
+span {
+  color: #E06C75;
+}
+
+a {
+  text-decoration: none;
+  color: #ABB2BF;
+}
+
+ul li {
+  list-style: none;
+  color: #ABB2BF;
+  font-size: 24px;
+  line-height: 35px;
+}
+
+.indent {
+  padding-left: 40px;
+}
+
+.language {
+  color: #56B6C2;
+}
+
+i + span.indent {
+  padding-left: 0;
+}
+
+li i {
+  padding-left: 20px;
+  position: relative;
+  left: -60px;
+}
