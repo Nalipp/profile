@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Tahoma,Verdana,Segoe,sans-serif;
+  color: white;
+  background: #2CBAE7;
+}
+
+header ul {
+  border-bottom: 2px solid white;
+  text-transform: uppercase;
+}
+
+header li {
+  display: inline-block;
+  font-size: 12px;
+  letter-spacing: 0.6px;
+  padding: 13px 0;
+  width: 143px;
+  text-align: center;
+  border-right: 1px dotted white;
+}
+
+header li:first-of-type {
+  border-left: 1px dotted white;
+  margin-left: 70px;
+}
+
+#signin {
+  float: right;
+  border: none;
+  width: 100px;
+}
+
+header li:nth-child(4) {
+  margin-right: 50px;
+}
+
+header {
+  font-family: Georgia,Times,"Times New Roman",serif;
+  color: white;
+}
+
+header img {
+  height: 100px;
+}
+
+div.intro h1 {
+  font-size: 40px;
+  padding-top: 46px;
+  line-height: 48px;
+  letter-spacing: 1.6px;
+}
+
+section {
+  margin: 60px 70px;
+}
+
+div #social button {
+  font-family: Tahoma,Verdana,Segoe,sans-serif;
+  color: #2CBAE7;
+  font-size: 12px;
+  background: white;
+  text-transform: uppercase;
+  padding: 16px;
+  border-radius: 10px;
+  border: none;
+}
