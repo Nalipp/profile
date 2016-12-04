@@ -70,12 +70,48 @@ section.main-cities {
 
 .city-image h3 {
   position: absolute;
-  top: 160px;
+  top: 10px;
   left: 30px;
   color: white;
   font-family: arial;
   letter-spacing: 3px;
-  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  text-shadow: -0.6px 0 black, 0 0.6px black, 0.6px 0 black, 0 -0.6px black;
+}
+
+.city-image h4 {
+  position: absolute;
+  font-size: 12px;
+  top: 38px;
+  left: 40px;
+  color: white;
+  font-family: arial;
+  letter-spacing: 2px;
+  text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+}
+
+.city-stats h4 {
+  position: absolute;
+  font-size: 16px;
+  padding: 1px 8px;
+  background-color: rgba(40, 44, 52, 0.8);
+}
+
+h4.population {
+  position: absolute;
+  top: 120px;
+  left: 25px;
+}
+
+h4.monthly-cost {
+  position: absolute;
+  top: 145px;
+  left: 25px;
+}
+
+h4.walk-score {
+  position: absolute;
+  top: 170px;
+  left: 25px;
 }
 
 .city-image img {
@@ -90,4 +126,12 @@ section footer {
   bottom: 0;
   left: 0;
   right: 0;
+}
+
+img.map {
+  border-radius: 0;
+  height: 60px;
+  position: absolute;
+  top: 8px;
+  right: 14px;
 }
