@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 5px;
+}
+
+html {
+  height: 100%;
+}
+body {
+  font-family: monospace;
+  margin: 20px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.header-wrapper {
+}
+
+.nav-wrapper {
+}
+
+.post-wrapper {
+  border: 2px solid grey;
+  width: 60%;
+}
+
+li {
+  text-decoration: none;
+  display: inline-block
+}
+
+aside {
+  position: absolute;
+  border: 2px solid grey;
+  width: 200px;
+  top: 100px;
+  left: 800px;
+  height: 300px;
+}
+
+aside ul {
+  text-decoration: none;
+}
+
+aside li {
+  display: block;
+}
